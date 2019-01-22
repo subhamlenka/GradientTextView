@@ -18,7 +18,7 @@ public class GradientTextView extends android.support.v7.widget.AppCompatTextVie
     {
 
         TextPaint paint = textView.getPaint();
-        float width = paint.measureText("Gradient Color");
+        float width = paint.measureText("Gradient Colors");
 
         Shader textShader = new LinearGradient(0, 0, width, textView.getTextSize(),
                 new int[]{
