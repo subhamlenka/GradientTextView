@@ -14,7 +14,7 @@ public class GradientTextView extends android.support.v7.widget.AppCompatTextVie
         super(context);
     }
 
-    public void setGradientColor(TextView textView,int startColor, int endColor)
+    public static void setGradientColor(TextView textView,int startColor, int endColor)
     {
 
         TextPaint paint = textView.getPaint();
